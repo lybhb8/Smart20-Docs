@@ -144,6 +144,9 @@
 
 在使用 Smart20-BlowmoldingControlSystem 之前请进行缜密的测试。在使用期间，由本程序集造成或间接造成的所有损失，均自己承担，与本程序集无关。
 
+## 开始 | Getting Started
+
+[项目文档](https://github.com/lybhb8/Smart20-Docs/tree/main/source/docs/Gettingstarted/start.md)
 
 ## 开发 | Development
 
@@ -184,3 +187,4 @@
 ## 关于作者 | About author
 
   Bobilin，一个原生而不纯粹的机械工程师，一个纯粹的自动化控制技术爱好者，一个零基础计算机技术的学习者。
+
