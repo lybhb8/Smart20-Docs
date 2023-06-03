@@ -1,7 +1,7 @@
 **Smart20 BlowmoldingControlSystem** 
 基于HMI+PLC 的吹塑机控制系统 A Blowmolding Control System Base by HMI+PLC 
 
->- [下载地址/Github](https://github.com/lybhb8/Smart20-BlowmoldingControlSystem)
+>- [项目仓库/Github](https://github.com/lybhb8/Smart20-BlowmoldingControlSystem)
 >- [文档仓库/Github](https://github.com/lybhb8/Smart20-Docs)
 >- [博客](http://blowmoldingshare.cn/)
 
