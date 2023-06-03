@@ -3,6 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+相关链接 | Link
+===============
+
+* `项目仓库/Github <https://github.com/lybhb8/Smart20-BlowmoldingControlSystem>`_
+* `文档仓库/Github <https://github.com/lybhb8/Smart20-Docs>`_
+* `博客 <http://blowmoldingshare.cn/>`_
+
 简介 | Brief 
 ===============
 .. toctree::
@@ -10,15 +17,12 @@
 
    docs/README
 
-
-
 Smart20 教程 | tutorial 
 ======================
 
 .. toctree::
    :maxdepth: 2
   
-
 
 Contents
 =========
