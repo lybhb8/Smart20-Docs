@@ -146,7 +146,7 @@
 
 ## 开始 | Getting Started
 
-[项目文档](https://github.com/lybhb8/Smart20-Docs/tree/main/source/docs/Gettingstarted/start.md)
+[项目文档](docs/Gettingstarted/start.md)
 
 ## 开发 | Development
 
