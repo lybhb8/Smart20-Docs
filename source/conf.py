@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Smart@20 BlowmoldingControlSystem'
+project = 'Smart20 BlowmoldingControlSystem'
 copyright = '2023, Bobolin'
 author = 'Bobolin'
 release = '2.00'
