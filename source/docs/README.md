@@ -1,3 +1,5 @@
+# 系统概述 | Overview
+
 **Smart20 BlowmoldingControlSystem** 
 基于HMI+PLC 的吹塑机控制系统 A Blowmolding Control System Base by HMI+PLC 
 
@@ -144,9 +146,6 @@
 
 在使用 Smart20-BlowmoldingControlSystem 之前请进行缜密的测试。在使用期间，由本程序集造成或间接造成的所有损失，均自己承担，与本程序集无关。
 
-## 开始 | Getting Started
-
-[项目文档](docs/Gettingstarted/start.md)
 
 ## 开发 | Development
 

@@ -28,7 +28,7 @@ source_suffix = {
 }
 
 
-# source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
+source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -36,3 +36,6 @@ source_suffix = {
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+
+html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }

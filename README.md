@@ -3,4 +3,4 @@
 [简介](source/docs/README.md)
 
 
-[开始](source/docs/gettingstart/start.md)
+[开始](source/docs/docs/tutorials/index.md)
