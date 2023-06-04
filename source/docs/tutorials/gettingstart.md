@@ -1,5 +1,4 @@
-
-## 阅读教程 | Read the tutorial
-
-### 开始 | Getting Start
+## 开始 | Geettings Start
+    
+### 准备 | Preparations
 
