@@ -5,4 +5,4 @@
     :maxdepth: 2
 
     tutorials/gettingstart
-    tutorials/IDE_dowload
+  .. tutorials/IDE_dowload
