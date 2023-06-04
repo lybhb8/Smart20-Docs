@@ -6,4 +6,4 @@
 [项目地址](https://github.com/lybhb8/Smart20-BlowmoldingControlSystem)
 
 
-[文档](https://smart20-docs.readthedocs.io/zh_CN/latest/)
+[项目文档](https://smart20-docs.readthedocs.io/zh_CN/latest/)
