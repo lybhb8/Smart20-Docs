@@ -3,4 +3,4 @@
 [简介](source/docs/README.md)
 
 
-[开始](source/docs/tutorials/index.rst)
+[开始](source/docs/tutorials.rst)
