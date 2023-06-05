@@ -6,4 +6,4 @@
 [系统仓库](https://github.com/lybhb8/Smart20-BlowmoldingControlSystem)
 
 
-[系统文档](https://smart20-docs.readthedocs.io/zh_CN/latest/)
+[系统文档](https://smart20-docs.readthedocs.io/)
