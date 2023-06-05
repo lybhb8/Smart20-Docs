@@ -17,6 +17,12 @@ release = '2.00'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
+import sys, os
+
+sys.path.append(os.path.abspath('sphinxext'))
+
+extensions = ['extname']
+
 extensions = ['myst_parser']
 # extensions = ['recommonmark']
 
