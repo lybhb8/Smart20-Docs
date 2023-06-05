@@ -1,1 +1,8 @@
-build/
+
+/.vscode
+
+/source/_build/*
+
+/build/*
+
+*.class

@@ -1,3 +1,6 @@
+# 头部添加导入
+# import sphinx_book_theme
+
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -14,8 +17,8 @@ release = '2.00'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-# extensions = ['myst_parser']
-extensions = ['recommonmark']
+extensions = ['myst_parser']
+# extensions = ['recommonmark']
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -38,7 +41,15 @@ source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
 
 # html_theme = 'press'
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
 
 
 html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
+
+
+# 添加你自己的 CSS 规则
+html_static_path = ['_static']
+html_css_files = ["custom.css"]
+# 自定义徽标、和网站图标
+html_logo = "_static/notebook-logo.svg"
+html_favicon = "_static/favicon.ico"
+
