@@ -23,8 +23,8 @@ sys.path.append(os.path.abspath('sphinxext'))
 
 extensions = ['extname']
 
-extensions = ['myst_parser']
-# extensions = ['recommonmark']
+# extensions = ['myst_parser']
+extensions = ['recommonmark']
 
 templates_path = ['_templates']
 exclude_patterns = []
