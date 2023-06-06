@@ -14,7 +14,7 @@ sys.path.append(os.path.abspath("./kitchen-sink/demo_py"))
 # -- Project information -----------------------------------------------------
 #
 
-project = "Smart20"
+project = "smart20"
 copyright = "2023, Bobolin"
 author = "lybhb8"
 release = '2.00'
@@ -72,7 +72,7 @@ myst_heading_anchors = 3
 #
 
 html_theme = "furo"
-html_title = "Smart20"
+html_title = "smart20"
 language = "zh_CN"
 
 html_static_path = ["_static"]
