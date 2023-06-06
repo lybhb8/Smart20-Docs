@@ -14,7 +14,7 @@ sys.path.append(os.path.abspath("./kitchen-sink/demo_py"))
 # -- Project information -----------------------------------------------------
 #
 
-project = "smart20"
+project = "Smart20"
 copyright = "2023, Bobolin"
 author = "lybhb8"
 release = '2.00'
