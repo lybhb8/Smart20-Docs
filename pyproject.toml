@@ -9,7 +9,7 @@ additional-compiled-static-assets = [
 ]
 
 [project]
-name = "smart20"
+name = "furo"
 description = "A clean customisable Sphinx documentation theme."
 dynamic = ["version"]
 readme = "README.md"
@@ -45,7 +45,7 @@ classifiers = [
 ]
 
 [project.entry-points]
-"sphinx.html_themes" = {smart20 = "furo"}
+"sphinx.html_themes" = {furo = "furo"}
 
 [project.urls]
 GitHub = "https://github.com/lybhb8/Smart20-Docs"
