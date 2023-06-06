@@ -72,7 +72,7 @@ myst_heading_anchors = 3
 #
 
 html_theme = "furo"
-html_title = "smart20"
+html_title = "Smart20"
 language = "zh_CN"
 
 html_static_path = ["_static"]
@@ -113,7 +113,7 @@ html_context: Dict[str, Any] = {}
 
 RTD_TESTING = False
 if RTD_TESTING or "FURO_RTD_TESTING" in os.environ:
-    del html_theme_options["footer_icons"]
+    #del html_theme_options["footer_icons"]
 
     html_css_files += [
         "https://assets.readthedocs.org/static/css/readthedocs-doc-embed.css",
