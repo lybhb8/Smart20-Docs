@@ -3,6 +3,9 @@
 # Smart20
 
 基于HMI+PLC，功能齐全，性能优异，代码开放，免费开源的的吹塑机控制系统。
+
+![](_static/home.png)
+
 ## **Smart20** 初识 
 
 [简介](../docs/brief.md): 介绍 **Smart20** 吹塑机控制系统的技术架构。
