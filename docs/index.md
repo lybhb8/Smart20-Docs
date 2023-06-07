@@ -8,15 +8,11 @@
 
 ## **Smart20** 初识 
 
-[简介](../docs/brief.md): 介绍 **Smart20** 吹塑机控制系统的技术架构。
-
-[性能特点](../docs/feature.md): 系统特点和性能优势。
-
-[演示](../docs/show.md): Gif 图片演示系统。
-
-[开源](../docs/open.md): 系统开源的历程和开源事项。
-
-[license](../docs/license.md): **Smart20** 系统&系统文档的开源协议。
+>- [简介](../docs/brief.md) 介绍 **Smart20** 吹塑机控制系统的技术架构。
+>- [性能特点](../docs/feature.md): 系统特点和性能优势。
+>- [演示](../docs/show.md): Gif 图片演示系统。
+>- [开源](../docs/open.md): 系统开源的历程和开源事项。
+>- [license](../docs/license.md): **Smart20** 系统&系统文档的开源协议。
 
 
 ##  **Smart20** 进级

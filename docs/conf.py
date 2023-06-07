@@ -93,7 +93,10 @@ html_theme_options: Dict[str, Any] = {
     ],
     "source_repository": "https://github.com/lybhb8/Smart20-Docs",
     "source_branch": "furo",
-    "source_directory": "docs/",
+    #"source_directory": "docs/",
+    #"sidebar_hide_name": True,
+    #"navigation_with_keys": True,
+
 }
 
 #if "READTHEDOCS" in os.environ:
@@ -127,9 +130,9 @@ if RTD_TESTING or "FURO_RTD_TESTING" in os.environ:
     html_context["current_version"] = "latest"
     html_context["conf_py_path"] = "/docs/"
     html_context["display_github"] = True
-    html_context["github_user"] = "pradyunsg"
-    html_context["github_repo"] = "furo"
-    html_context["github_version"] = "main"
+    html_context["github_user"] = "lybhb8"
+    html_context["github_repo"] = "Smart20-docs"
+    html_context["github_version"] = "furo"
     html_context["slug"] = "furo"
 
 FONT_AWESOME_TESTING = False
