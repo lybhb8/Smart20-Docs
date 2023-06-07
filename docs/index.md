@@ -14,6 +14,7 @@ hide-toc: true
    
 brief
 feature
+show
 open
 docs/tutorials
 ```

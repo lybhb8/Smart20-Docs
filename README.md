@@ -30,17 +30,16 @@
 
 <!-- start brief -->
 
-- Smart20 吹塑机控制系统基于HMI+PLC，构建了吹塑机控制系统主要功能和模块，**Smart20-BlowmoldingControlSystem** 基于Apache-2.0 license协议颁布，完全可以免费应用于基本需求的商业产品中。
+- **Smart20-BlowmoldingControlSystem** 吹塑机控制系统基于HMI+PLC，构建了吹塑机控制系统主要功能和模块， 在Apache-2.0 license协议颁布，完全可以免费应用于基本需求的商业产品中。
 - HMI部分基于[繁易](https://www.flexem.cn/product/9000/FE9150M) 15吋触摸屏构建，组态软件(IDE)为[FStudio 2.0](http://fs.flexem.com/zh)，功能脚本遵照C语言语法。
 - PLC部分基于[OMRON](https://www.fa.omron.com.cn/products/category/automation-systems/programmable-controllers/index.html) **C**系列PLC(如CP1H,CJ2M)构建，编辑软件为[CX-ONE4.03及以上](https://www.aliyundrive.com/s/bRGAnchw8ZJ)。后续还会推出基于西门子S7系列，三菱FX5U等版本，用户也可以自行移植构建。
 
 <!-- end brief -->
 
-For more information, visit [Furo's documentation][quickstart-docs].
 
-[quickstart-docs]: https://pradyunsg.me/furo/quickstart
+## 演示
 
-
+- 见[演示](/docs/show.md)章节
 
 ## 开发 | Development
 
