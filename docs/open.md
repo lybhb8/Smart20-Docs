@@ -121,10 +121,3 @@ hide-toc: true
 - **Smart20-BlowmoldingControlSystemPro**所有版权归作者Bobolin所有。
 
 - **Smart20-BlowmoldingControlSystemPro**是非开源部分，需要付费购买，欢迎商业用户积极选用。
-
-## License
-
-```{include} ../README.md
-:start-after: <!-- start license -->
-:end-before: <!-- end license -->
-```

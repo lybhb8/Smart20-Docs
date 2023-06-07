@@ -4,12 +4,12 @@ hide-toc: true
 
 # 演示 | Show
 
-## 部分1
+## 图示A：
 
-![](/docs/img/1.gif)
+![](/docs/img/2.gif)
 
-## 部分2
+## 图示B：
 
-![](/docs/img/2.gif) 
+![](/docs/img/1.gif) 
       
 

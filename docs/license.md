@@ -1,8 +1,8 @@
 
-# License
+# 协议 | License
 
 ```{include} ../README.md
 :start-after: <!-- start license -->
-:end-before: <!-- license -->
+:end-before: <!-- end license -->
 ```
 
