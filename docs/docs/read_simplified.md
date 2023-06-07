@@ -1,1 +1,1 @@
-## 简要阅读 | Read Simplified
+# 简要阅读 | Read Simplified
