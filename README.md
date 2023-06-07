@@ -49,7 +49,7 @@
 
 ## 开源 | Open Source
 
-具体见[开源相关](docs/open.md)
+具体见[开源须知](docs/open.md)
 
 ## 贡献 | Contribution
 
@@ -89,6 +89,6 @@
 
 - The project(Smart20-BlowmoldingControlSystem)is licensed under the  **Apache-2.0** license .
 
-- The project(Smart20-docs)is licensed under the **GPL-3.0** license .
+- The project(Smart20-docs)is licensed under the **[GPL-3.0](/LICENSE)** license .
 
 <!-- end license -->
