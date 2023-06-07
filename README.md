@@ -5,7 +5,7 @@
   基于HMI+PLC 的 <a href="https://github.com/lybhb8/Smart20-BlowmoldingControlSystem/">吹塑机控制系统</a> 文档.
 </p>
 <a href="https://github.com/lybhb8/Smart20-BlowmoldingControlSystem/">
-  <img align="center" src=""\docs\docs\image\home.png"" alt="Demo image">
+  <img align="center" src="https://github.com/lybhb8/Smart20-Docs/blob/furo/docs/_static/home.png" alt="首页_img">
 </a>
 
 ## 特点 | Features
