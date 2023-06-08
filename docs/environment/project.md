@@ -1,4 +1,4 @@
-# Smart20 系统
+# Smart20 BlowmoldingControlSystem
 
 
 [计算机工具软件下载/安装](../docs/tool.md):

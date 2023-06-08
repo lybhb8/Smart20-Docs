@@ -37,7 +37,12 @@ extensions = [
     "sphinx_copybutton",
     "sphinx_design",
     "sphinx_inline_tabs",
+    'sphinx.ext.autosectionlabel',
 ]
+
+# 内联标签
+autosectionlabel_prefix_document = True
+
 
 # -- Options for extlinks ----------------------------------------------------
 #
