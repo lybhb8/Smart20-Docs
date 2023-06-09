@@ -47,9 +47,15 @@
 
 ## 开发 | Development
 
+<!-- start github -->
+
 我们欢迎您在 **Smart20-BlowmoldingControlSystem**项目的 GitHub 上报告 [issue](https://github.com/lybhb8/Smart20-BlowmoldingControlSystem/issues)或者 [pull request](https://github.com/lybhb8/Smart20-BlowmoldingControlSystem/pulls)。
 
-如果您还不熟悉GitHub的**Fork & Pull**开发模式，您可以阅读[克隆仓库 - GitHub 文档](https://docs.github.com/zh/repositories/creating-and-managing-repositories/cloning-a-repository?platform=windows)获得更多的信息。(**1小时学会GitHub**，[请点击:【狂神说Java】Git最新教程通俗易懂](https://www.bilibili.com/video/BV1FE411P7B3/?spm_id_from=333.337.search-card.all.click&vd_source=72d47f920610891857fb5340afefeb8e))
+如果您还不熟悉GitHub的**Fork & Pull**开发模式，您可以阅读[克隆仓库 - GitHub 文档](https://docs.github.com/zh/repositories/creating-and-managing-repositories/cloning-a-repository?platform=windows)获得更多的信息。
+
+<!-- end github -->
+
+**1小时学会GitHub** :[请点击:【狂神说Java】Git最新教程通俗易懂](https://www.bilibili.com/video/BV1FE411P7B3/?spm_id_from=333.337.search-card.all.click&vd_source=72d47f920610891857fb5340afefeb8e)
 
 ## 开源 | Open Source
 

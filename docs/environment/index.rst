@@ -10,20 +10,24 @@
 
 :doc:`tools`
 
+
+Smart20 系统库
+--------------------------
+
+:doc:`project` 
+
+
 Smart20 编程软件下载安装
 ---------------------------
 
 :doc:`ide`
 
-Smart20 系统库
----------------------------
 
-:doc:`project` 
   
 .. toctree::
   :hidden:
-  :maxdepth: 2
+  :maxdepth: 3
   
   tools
-  ide
   project
+  ide

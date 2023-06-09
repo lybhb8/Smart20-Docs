@@ -15,7 +15,7 @@ Smart20
 -----------------
 .. note:: 在文章以后绪述中，如无特殊声明， **系统** 代表 **Smart20 BlowmoldingControlSystem**,  **系统文档** 代表 **Smart20-Docs** 也就是本文 .
 
-:doc:`brief`:  介绍 **系统** 的技术架构
+:doc:`brief`  介绍 **系统** 的技术架构
 
 :doc:`feature`:  **系统** 特点和性能优势
 
@@ -35,7 +35,6 @@ Smart20
 
 **Smart20** 高级
 --------------------
-
 
 
 .. toctree:: 
