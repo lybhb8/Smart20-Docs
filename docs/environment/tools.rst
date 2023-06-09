@@ -60,6 +60,7 @@ Git 易于学习，占用空间小，性能快如闪电。它超越了 Subversio
    git commit -m "text"
    git push
 
+**git** 也可结合后续章节 :doc:`/environment/project` 学习使用.
 
 VScode
 ---------------

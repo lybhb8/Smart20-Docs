@@ -91,8 +91,8 @@
 
 <!-- start license -->
 
-- Smart20系统项目(Smart20-BlowmoldingControlSystem)在**Apache-2.0** 协议下授权 .
-
-- Smart20系统文档项目(Smart20-docs)在 **[GPL-3.0](../LICENSE)** 协议下授权 .
+- Smart20系统(Smart20-BlowmoldingControlSystem)在**Apache-2.0** 协议下授权 .
+  
+- Smart20系统文档(Smart20-Docs)在 **[GPL-3.0](../LICENSE)** 协议下授权 .
 
 <!-- end license -->
