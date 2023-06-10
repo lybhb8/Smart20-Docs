@@ -1,6 +1,6 @@
-======================
-Nodejs / Git / VScode 
-======================
+=================
+Nodejs / VScode
+=================
 .. important:: 操作系统: windows10<64位>pro及以上, 推荐 <Windows 10 Professional Version 2009/20H2>
  
 Nodejs
@@ -23,97 +23,6 @@ Nodejs是现在WEB应用程序的基础,非常多的应用软件都依赖它.
 
 ----
 
-Git
----------------
-.. note:: 需要安装, 是软件在 **本地** 仓库 & **github** 远程仓库的操作管理工具, Smart20系统需要它存储和版本管理.
-
-官网介绍：
-
-Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
-
-Google翻译:
-
-Git 是一个免费的开源分布式版本控制系统，旨在快速高效地处理从小型项目到大型项目的所有内容。
-Git 易于学习，占用空间小，性能快如闪电。它超越了 Subversion、CVS、Perforce 和 ClearCase 等 SCM 工具，具有廉价的本地分支、方便的临时区域和多个工作流等特性。
-
-* `Git 下载<淘宝镜像> <https://registry.npmmirror.com/-/binary/git-for-windows/v2.41.0.windows.1/Git-2.41.0-64-bit.exe>`_ : 版本 Version 2.41.0 winx64
-* `Git 官网文档/中文 <https://git-scm.com/book/zh/v2>`_
-* `Git 1小时视频教程 <https://www.bilibili.com/video/BV1FE411P7B3/?spm_id_from=333.337.search-card.all.click&vd_source=72d47f920610891857fb5340afefeb8e>`_
-
-----
-
-git 使用前主要设置
-~~~~~~~~~~~~~~~~~~~
-.. note:: 代码 "--global " 表示全局git用户名/电子邮件地址, 不加表示本仓库<文件夹>git用户名/电子邮件地址
-
-鼠标右键打开 :guilabel:`Git Bash`
-
-设置用户名
-`````````````````
-
-.. code-block:: bash
-
-    $ git config --global user.name "xiaoming"
-
-
-- 确认用户名正确
-  
-.. code-block:: bash
-
-    $ git config --global user.name
-    > xiaoming
-  
-设置电子邮件地址
-```````````````````
-
-.. code-block:: bash
-    
-    $ git config --global user.email "email@example.com"
-
-
-- 确认电子邮件地址正确
-
-.. code-block:: bash
-    
-    $ git config --global user.email
-    email@example.com   
-
-
-Git 链接 GitHub 的身份验证
-```````````````````````````````````
-
-https://docs.github.com/zh/authentication/connecting-to-github-with-ssh
-
-----
-
-git常用的指令
-~~~~~~~~~~~~~~~
-
--> 本地仓库
-```````````````
-初始化或从远程仓库 **Github** 拉取<pull>/克隆<clone>
-
-
-.. code-block:: shell
-
-    git init
-    git fetch <remote>
-    git clone https://github.com/username/XXX.git
-
-
-->远程仓库
-`````````````````
-本地仓库同步远程仓库
-
-.. code-block:: shell
-
-   git add .
-   git commit -m "text"
-   git push
-
-将结合后续章节 :doc:`/environment/project` 讲解Git的使用.
-
 VScode
 ---------------
 .. note:: 非必需的, Smart20系统高级应用和二次开发, C脚本代码编辑和自有的系统静态库文件封装时会使用, 也可以后期安装.
@@ -124,3 +33,7 @@ Visual Studio Code (简称 VSCode) 是一款免费开源的现代化轻量级代
 * `VScode 官网下载 <https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user>`_ : 版本 Version 1.79
 * `VScode 安装教程 <https://blog.csdn.net/MSDCP/article/details/127033151?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-127033151-blog-123216812.235^v38^pc_relevant_sort_base2&spm=1001.2101.3001.4242.1&utm_relevant_index=3>`_
   
+
+
+
+
