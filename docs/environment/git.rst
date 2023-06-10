@@ -5,7 +5,7 @@ Git / GitHub
 
 Git
 ---------------
-.. note:: 需要安装, 是软件在 **本地** 仓库 & **github** 远程仓库的操作管理工具, Smart20系统需要它存储和版本管理.
+.. note:: 需要安装. 是软件在 **本地** 仓库 & **github** 远程仓库的操作管理工具, Smart20系统需要它存储和版本管理.
 
 官网介绍：
 
@@ -23,9 +23,10 @@ Git 易于学习，占用空间小，性能快如闪电。它超越了 Subversio
 
 ----
 
+
 git 主要设置
 ~~~~~~~~~~~~~~~~~~~
-.. note:: 代码 "--global " 表示全局git用户名/电子邮件地址, 不加表示本仓库<文件夹>git用户名/电子邮件地址 .
+.. note:: 代码 "--global " 表示全局git用户名/电子邮件地址, 不加表示本仓库<文件夹>git用户名/电子邮件地址 . `git设置 <https://docs.github.com/zh/get-started/quickstart/set-up-git>`_
 
 鼠标右键打开 :guilabel:`Git Bash`
 
@@ -62,39 +63,17 @@ git 主要设置
 
 
 Git SSH密钥生成
-```````````````````
-
-:ref:`environment/git:git 远程仓库`
+`````````````````
+:ref:`environment/git:1 生成新 ssh 密钥`
 
 ----
 
 git常用的指令
 ~~~~~~~~~~~~~~~
 
--> 本地仓库
-```````````````
-初始化或从远程仓库 **Github** 拉取<pull>/克隆<clone>
+Git 基本操作图
+````````````````
 
-
-.. code-block:: shell
-
-    git init
-    git fetch <remote>
-    git clone https://github.com/username/XXX.git
-
-
-->远程仓库
-`````````````````
-本地仓库同步远程仓库
-
-.. code-block:: shell
-
-   git add .
-   git commit -m "text"
-   git push
-
-
-Git 基本操作
 Git 的工作就是创建和保存你项目的快照及与之后的快照进行对比。
 Git 常用的是以下 6 个命令: git clone、git push、git add 、git commit、git checkout、git pull. 
 
@@ -114,6 +93,29 @@ Git 常用的是以下 6 个命令: git clone、git push、git add 、git commit
 
 看懂这张图片, Git 就可以使用了,详细参考 `Git教程 <https://www.w3cschool.cn/git/git-tutorial.html>`_
 
+
+-> 本地仓库
+```````````````
+初始化或从远程仓库 **Github** 拉取<pull>/克隆<clone>
+
+
+.. code-block:: shell
+
+    git init
+    git fetch <remote>
+    git clone https://github.com/username/XXX.git
+
+
+->远程仓库
+`````````````````
+本地仓库同步远程仓库
+
+.. code-block:: bash
+
+   git add .
+   git commit -m "text"
+   git push
+
 ----
 
 Github
@@ -129,7 +131,7 @@ GitHub的独特卖点在于从另外一个项目进行分支的简易性. 为一
 
 注册 github 账号
 ~~~~~~~~~~~~~~~~~~
-.. important:: <注册 github 账号>是必须的.
+.. note:: <注册 github 账号>是需要的.
 
 
 - 浏览器打开 `Github主页 <https://github.com/>`_
@@ -147,19 +149,53 @@ GitHub的独特卖点在于从另外一个项目进行分支的简易性. 为一
     :name: github首次登陆页
 
 
-github 设置
-~~~~~~~~~~~~
+github 账户设置
+~~~~~~~~~~~~~~~
 
 
-本地git配置
-~~~~~~~~~~~~
+本地 git 仓库配置
+~~~~~~~~~~~~~~~~~
+.. note:: 如果 本地 git 没有设置, 请转到
+    :ref:`environment/git:git 主要设置` 设置.否则请跳过.
 
-.. _ `Git 远程仓库`:
 
-Git 远程仓库
-~~~~~~~~~~~~~
 
-hgfhf
 
-`详细教程 <https://docs.github.com/zh/authentication/connecting-to-github-with-ssh>`_
+.. _ `git 连接 github`:
+
+Git 连接 GitHub 
+~~~~~~~~~~~~~~~~
+
+
+
+1 生成新 SSH 密钥
+``````````````````
+
+可在本地计算机上生成新的 SSH 密钥. 生成密钥后，可以将公钥添加到你在 GitHub上的帐户, 以启用通过 SSH 进行 Git 操作的身份验证. 
+
+* 打开 :guilabel:`Bash`
+* 粘贴下面的文本（替换为您的 GitHub 电子邮件地址）
+  
+.. code-block:: bash
+
+    $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+
+* 当系统提示您“Enter a file in which to save the key(输入要保存密钥的文件)”时，可以按 Enter 键接受默认文件位置. 请注意，如果以前创建了 SSH 密钥，则 ssh-keygen 可能会要求重写另一个密钥，在这种情况下，我们建议创建自定义命名的 SSH 密钥。 为此，请键入默认文件位置，并将 id_ssh_keyname 替换为自定义密钥名称。
+
+.. code-block:: bash
+
+    Enter a file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM):[Press enter]
+
+.. note:: 生成 SSH 密钥对后，必须将公钥添加到 GitHub.com 帐户上,实现本地以 SSH方式访问GitHub.com 帐户. 文件路径：" C:\\Users\\ <计算机用户名> \\.ssh\\id_4096.pub", 用写字板打开，复制全部内容到 "剪切板" ，在复制密钥时，请勿添加任何新行或空格.
+
+
+2 向github帐户添加新的 SSH 密钥
+```````````````````````````````
+
+3 github SSH 连接
+```````````````````
+
+
+`详细教程 <https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>`_
 

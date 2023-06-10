@@ -5,7 +5,7 @@ Nodejs / VScode
  
 Nodejs
 ---------------
-.. note:: 非必需，建议安装，不需深入学习，只需了解  `npm <https://www.runoob.com/nodejs/nodejs-npm.html>`_  机制和 `nvm <https://www.cnblogs.com/powerwu/articles/16614130.html>`_ 版本管理就可以.
+.. note:: 非必需，建议安装. 不需深入学习，只需了解  `npm <https://www.runoob.com/nodejs/nodejs-npm.html>`_  机制和 `nvm <https://www.cnblogs.com/powerwu/articles/16614130.html>`_ 版本管理就可以.
 
 Node.js是一个基于Chrome V8引擎的JavaScript运行环境,使用了一个事件驱动、非阻塞式I/O模型,让JavaScript 运行在服务端的开发平台.
 
@@ -25,7 +25,7 @@ Nodejs是现在WEB应用程序的基础,非常多的应用软件都依赖它.
 
 VScode
 ---------------
-.. note:: 非必需的, Smart20系统高级应用和二次开发, C脚本代码编辑和自有的系统静态库文件封装时会使用, 也可以后期安装.
+.. note:: 非必需的, 建议安装. Smart20系统高级应用和二次开发, C脚本代码编辑和自有的系统静态库文件封装时会使用, 也可以后期安装.
 
 Visual Studio Code (简称 VSCode) 是一款免费开源的现代化轻量级代码编辑器，支持几乎所有主流的开发语言的语法高亮、智能代码补全、自定义热键、括号匹配、代码片段、代码对比 Diff、Git 等特性，支持插件扩展，并针对网页开发和云端应用开发做了优化。软件跨平台支持 Win、Mac 以及 Linux，运行流畅，同类型软件还有 Sublime Text、Notepad++等。
 
