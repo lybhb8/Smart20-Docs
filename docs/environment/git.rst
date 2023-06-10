@@ -34,28 +34,28 @@ git 主要设置
 设置用户名
 `````````````````
 
-.. code-block:: bash
+.. code-block:: console
 
     $ git config --global user.name "xiaoming"
 
 
 - 确认用户名正确
   
-.. code-block:: bash
+.. code-block:: console
 
     $ git config --global user.name
   
 设置电子邮件地址
 ```````````````````
 
-.. code-block:: bash
+.. code-block:: console
     
     $ git config --global user.email "email@example.com"
 
 
 - 确认电子邮件地址正确
 
-.. code-block:: bash
+.. code-block:: console
     
     $ git config --global user.email
     
@@ -65,7 +65,9 @@ git 主要设置
 
 Git SSH密钥生成
 `````````````````
+详见 ->
 :ref:`environment/git:1 生成新 ssh 密钥`
+
 
 ----
 
@@ -100,7 +102,7 @@ Git 常用的是以下 6 个命令: git clone、git push、git add 、git commit
 初始化或从远程仓库 **Github** 拉取<pull>/克隆<clone>
 
 
-.. code-block:: shell
+.. code-block:: console
 
     git init
     git fetch <remote>
@@ -111,7 +113,7 @@ Git 常用的是以下 6 个命令: git clone、git push、git add 、git commit
 `````````````````
 本地仓库同步远程仓库
 
-.. code-block:: bash
+.. code-block:: console
 
    git add .
    git commit -m "text"
@@ -139,7 +141,11 @@ GitHub的独特卖点在于从另外一个项目进行分支的简易性. 为一
  
 - 点击 Github主页右上角 :guilabel:`Sign up` 按钮 , 按提示完成Github账号注册. 
 
+----
+
 登录 github
+
+
 ~~~~~~~~~~~~~~~~~~~~
 
 拥有github账号后 , 再用浏览器打开 `Github主页 <https://github.com/>`_ , 浏览器会自动跳转至 Github 账户首次页面：
@@ -149,22 +155,21 @@ GitHub的独特卖点在于从另外一个项目进行分支的简易性. 为一
     :align: center
     :name: github首次登陆页
 
+----
 
-github 账户设置
-~~~~~~~~~~~~~~~
+github 账户基础设置
+~~~~~~~~~~~~~~~~~~~
 
-主要设置
-`````````````````
+请参考 `GitHub 教程来了！ <https://zhuanlan.zhihu.com/p/369486197?utm_medium=social&utm_oi=611442025460142080>`_ 完成 , 在此不再详说 .
 
-请参考 ``
-
+----
 
 本地 git 仓库配置
 ~~~~~~~~~~~~~~~~~
 .. note:: 如果 本地 git 没有设置, 请转到
     :ref:`environment/git:git 主要设置`, 否则请跳过.
 
-
+----
 
 Git 连接 GitHub 
 ~~~~~~~~~~~~~~~~
@@ -177,14 +182,14 @@ Git 连接 GitHub
 * 打开 :guilabel:`Bash`
 * 粘贴下面的文本（替换为您的 GitHub 电子邮件地址）
   
-.. code-block:: bash
+.. code-block:: console
 
     $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 
 * 当系统提示您“Enter a file in which to save the key(输入要保存密钥的文件)”时，可以按 Enter 键接受默认文件位置. 请注意，如果以前创建了 SSH 密钥，则 ssh-keygen 可能会要求重写另一个密钥，在这种情况下，我们建议创建自定义命名的 SSH 密钥。 为此，请键入默认文件位置，并将 id_ssh_keyname 替换为自定义密钥名称。
 
-.. code-block:: bash
+.. code-block:: console
 
     Enter a file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM):[Press enter]
 
@@ -224,7 +229,7 @@ Git 连接 GitHub
 3 测试 github SSH 连接
 ```````````````````````
 
-.. code-block:: bash
+.. code-block:: java
 
     $ ssh -T git@github.com
 
@@ -242,6 +247,8 @@ Git 连接 GitHub
     :align: center
 
 .. note:: 更详细的 `新增 SSH 密钥到 GitHub 帐户 <https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>`_
+
+----
 
 期待 Smart20
 ---------------
