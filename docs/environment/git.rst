@@ -1,6 +1,7 @@
-================
+
 Git / GitHub
-================
+=============
+
 .. note:: git 与 github 犹如 "手机银行APP" 与 "银行" 的关系.
 
 Git
@@ -152,21 +153,21 @@ GitHub的独特卖点在于从另外一个项目进行分支的简易性. 为一
 github 账户设置
 ~~~~~~~~~~~~~~~
 
+主要设置
+`````````````````
+
+请参考 ``
+
 
 本地 git 仓库配置
 ~~~~~~~~~~~~~~~~~
 .. note:: 如果 本地 git 没有设置, 请转到
-    :ref:`environment/git:git 主要设置` 设置.否则请跳过.
+    :ref:`environment/git:git 主要设置`, 否则请跳过.
 
 
-
-
-.. _ `git 连接 github`:
 
 Git 连接 GitHub 
 ~~~~~~~~~~~~~~~~
-
-
 
 1 生成新 SSH 密钥
 ``````````````````
@@ -187,15 +188,63 @@ Git 连接 GitHub
 
     Enter a file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM):[Press enter]
 
-.. note:: 生成 SSH 密钥对后，必须将公钥添加到 GitHub.com 帐户上,实现本地以 SSH方式访问GitHub.com 帐户. 文件路径：" C:\\Users\\ <计算机用户名> \\.ssh\\id_4096.pub", 用写字板打开，复制全部内容到 "剪切板" ，在复制密钥时，请勿添加任何新行或空格.
+.. note:: 生成 SSH 密钥对后，必须将公钥添加到 GitHub.com 帐户上,实现本地以 SSH方式访问GitHub.com 帐户. 
 
 
-2 向github帐户添加新的 SSH 密钥
+2 github帐户添加新的 SSH 密钥
 ```````````````````````````````
+* 2.1 在github任何页面的右上角, 单击个人资料照片,然后单击 :guilabel:`Settings`
 
-3 github SSH 连接
-```````````````````
+.. figure:: /docs/img/userbar-account-settings.png
+    :width: 30%
+    :align: right
+
+* 2.2 在边栏的“访问”部分中，单击 :guilabel:`SSH and GPG Keys`
+
+.. figure:: /docs/img/sshbutton.png
+    :width: 30%
+    :align: left
+
+* 2.3 单击 :guilabel:`New SSH key` 
+
+.. figure:: /docs/img/new_ssh_key.png
+    :width: 60%
+    :align: left
+
+* 2.4 添加 SSH key
+
+.. note:: 文件路径：" C:\\Users\\ <计算机用户名> \\.ssh\\id_4096.pub", 用<记事本>打开，复制全部内容到 "剪切板" ，在复制密钥时，请勿添加任何新行或空格.
+
+.. figure:: /docs/img/add_ssh_key.png
+    :width: 60%
+    :align: left
+
+完成后, 可以看到新的 SSH-key 已生成 . 
+
+3 测试 github SSH 连接
+```````````````````````
+
+.. code-block:: bash
+
+    $ ssh -T git@github.com
 
 
-`详细教程 <https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>`_
 
+.. figure:: /docs/img/ssh_t.png
+    :width: 70%
+    :align: center
+    
+
+和公钥匹配时则键入yes
+
+.. figure:: /docs/img/ssh_t.png
+    :width: 70%
+    :align: center
+
+.. note:: 更详细的 `新增 SSH 密钥到 GitHub 帐户 <https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>`_
+
+期待 Smart20
+---------------
+
+经过上述一系列的下载、安装和配置, 确实很是辛苦和恼人...
+好吧 , 请您冲杯咖啡, 休息一段时间, 并期待着我们的Smart20之旅吧 .
