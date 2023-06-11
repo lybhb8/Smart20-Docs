@@ -2,7 +2,9 @@
 Git / GitHub
 =============
 
-.. note:: git 与 github 犹如 "手机银行APP" 与 "银行" 的关系.
+.. note:: git 与 github 犹如 "手机银行APP" 与 "银行" 的关系. 
+    
+    如果您的本地计算机已经安装了git 也有 github 个人账户, 请转到 :doc:`smart20_repo`
 
 Git
 ---------------
@@ -24,10 +26,11 @@ Git 易于学习，占用空间小，性能快如闪电。它超越了 Subversio
 
 ----
 
+.. _ref`git 主要设置`:
 
 git 主要设置
 ~~~~~~~~~~~~~~~~~~~
-.. note:: 代码 "--global " 表示全局git用户名/电子邮件地址, 不加表示本仓库<文件夹>git用户名/电子邮件地址 . `git设置 <https://docs.github.com/zh/get-started/quickstart/set-up-git>`_
+.. note:: 代码 "--global " 表示全局git用户名/电子邮件地址, 不加表示本仓库<文件夹>git用户名/电子邮件地址 . 详情请参考 : `git设置 <https://docs.github.com/zh/get-started/quickstart/set-up-git>`_
 
 鼠标右键打开 :guilabel:`Git Bash`
 
@@ -174,6 +177,8 @@ github 账户基础设置
 Git 连接 GitHub 
 ~~~~~~~~~~~~~~~~
 
+.. _ref`1 生成新 SSH 密钥`:
+
 1 生成新 SSH 密钥
 ``````````````````
 
@@ -229,7 +234,7 @@ Git 连接 GitHub
 3 测试 github SSH 连接
 ```````````````````````
 
-.. code-block:: java
+.. code-block:: console
 
     $ ssh -T git@github.com
 
@@ -240,7 +245,7 @@ Git 连接 GitHub
     :align: center
     
 
-和公钥匹配时则键入yes
+和公钥匹配时则键入: yes
 
 .. figure:: /docs/img/ssh_t.png
     :width: 70%

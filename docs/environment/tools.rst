@@ -1,7 +1,9 @@
 =================
 Nodejs / VScode
 =================
-.. important:: 操作系统: windows10<64位>pro及以上, 推荐 <Windows 10 Professional Version 2009/20H2>
+.. important:: 计算机操作系统要求: windows10<64位>pro及以上, 推荐 <Windows 10 Professional Version 2009/20H2>
+
+    如果暂时不想安装 Nodejs & VScode , 请转到 :doc:`/environment/git`
  
 Nodejs
 ---------------

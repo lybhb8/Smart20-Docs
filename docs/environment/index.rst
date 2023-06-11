@@ -20,7 +20,7 @@ Git / Github
 Smart20 系统库
 --------------------------
 
-:doc:`project` 
+:doc:`smart20_repo` 
 
 
 Smart20 编程软件下载安装
@@ -36,5 +36,5 @@ Smart20 编程软件下载安装
   
   tools
   git
-  project
+  smart20_repo
   ide

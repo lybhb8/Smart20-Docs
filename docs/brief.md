@@ -2,7 +2,7 @@
 hide-toc: true
 ---
 
-# 简介 | Brief
+# 阅览 | Overview
 
 ```{include} ../README.md
 :start-after: <!-- start brief -->
