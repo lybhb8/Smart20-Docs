@@ -1,18 +1,15 @@
-============
-Smart20
-============
-
-**基于HMI+PLC, 功能齐全, 性能优异, 代码开放, 免费开源的的吹塑机控制系统**
-
-
-.. figure:: _static/home.png
-    :width: 75%
-    :align: left
-    :name: Smart20首页
 
 **Smart20** 初识
 -----------------
 .. note:: 在文章以后绪述中，如无特殊声明， **系统** 代表 **Smart20 BlowmoldingControlSystem**,  **系统文档** 代表 **Smart20-Docs** 也就是本文 .
+
+.. centered:: 基于HMI+PLC, 功能齐全, 性能优异, 代码开放, 免费开源的的吹塑机控制系统
+
+.. figure:: _static/home.png
+    :width: 75%
+    :align: center
+    :name: Smart20首页
+
 
 :doc:`brief`  介绍 系统的技术架构
 

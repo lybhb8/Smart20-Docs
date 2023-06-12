@@ -37,7 +37,8 @@ extensions = [
     "sphinx_copybutton",
     "sphinx_design",
     "sphinx_inline_tabs",
-    'sphinx.ext.autosectionlabel',
+    "sphinx.ext.autosectionlabel",
+    
 ]
 
 # 内联标签
@@ -77,7 +78,7 @@ myst_heading_anchors = 3
 #
 
 html_theme = "furo"
-html_title = "Smart20"
+html_title = "Smart20控制系统"
 language = "zh_CN"
 
 html_static_path = ["_static"]
@@ -98,11 +99,10 @@ html_theme_options: Dict[str, Any] = {
     ],
     "source_repository": "https://github.com/lybhb8/Smart20-Docs",
     "source_branch": "furo",
-    #"source_directory": "docs/",
-    "sidebar_hide_name": True,
+    "source_directory": "docs/",
+    "sidebar_hide_name": False,
     "navigation_with_keys": True,
-
-
+    "globaltoc_includehidden": True,
 }
 
 #if "READTHEDOCS" in os.environ:
@@ -159,6 +159,6 @@ if FONT_AWESOME_TESTING:
     ]
 
 #html_logo = "_static/notebook-badge.svg"
-html_logo = "_static/Boquilla-variable.gif"
+#html_logo = "_static/Boquilla-variable.gif"
 html_favicon = "_static/favicon.ico"
 
