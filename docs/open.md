@@ -114,10 +114,10 @@ hide-toc: true
 
 在使用 Smart20-BlowmoldingControlSystem 之前请进行缜密的测试。在使用期间，由本程序集造成或间接造成的所有损失，均自己承担，与本程序集无关。
 
-## Smart20-BlowmoldingControlSystemPro 商用许可
+## Smart20Pro 商用许可
 
-- **Smart20-BlowmoldingControlSystemPro**软件框架与 **Smart20-BlowmoldingControlSystem**是一致的，只另包含增强功能模块。
+- **Smart20Pro**软件框架与 **Smart20**是一致的，只另包含增强功能模块。
 
-- **Smart20-BlowmoldingControlSystemPro**所有版权归作者Bobolin所有。
+- **Smart20Pro**所有版权归作者Bobolin所有。
 
-- **Smart20-BlowmoldingControlSystemPro**是非开源部分，需要付费购买，欢迎商业用户积极选用。
+- **Smart20Pro**是非开源部分，需要付费购买，欢迎商业用户选用。

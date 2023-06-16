@@ -52,7 +52,7 @@ git 主要设置
 2 设置电子邮件地址
 ```````````````````
 
-.. code-block:: shell
+::
     
     $ git config --global user.email "email@example.com"
 
@@ -177,7 +177,7 @@ Git 连接 GitHub
 * 粘贴下面的文本（替换为您的 GitHub 电子邮件地址）
   
 .. code-block:: shell
-
+    
     $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 
@@ -245,12 +245,3 @@ Git 连接 GitHub
     :align: center
 
 .. note:: 更详细的 `新增 SSH 密钥到 GitHub 帐户 <https://docs.github.com/zh/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account>`_
-
-----
-
-~~~~~~~~~~~~~
-期待 Smart20
-~~~~~~~~~~~~~
-
-经过上述一系列的下载、安装和配置, 确实很是辛苦和恼人...
-好吧 , 请您冲杯咖啡, 休息一段时间, 并期待着我们的Smart20之旅吧 .
