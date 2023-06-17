@@ -11,5 +11,3 @@ hide-toc: true
 ## 图示B：
 
 ![](/docs/img/1.gif) 
-      
-

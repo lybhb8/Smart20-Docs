@@ -12,15 +12,15 @@ Smart20 初识
     :name: Smart20首页
 
 
-:doc:`brief`  介绍 系统的技术架构
+:doc:`brief`  系统的技术架构
 
-:doc:`feature`:  系统特点和性能优势
+:doc:`feature`  系统特点和性能优势
 
-:doc:`show`:  系统演示
+:doc:`show`  系统演示
 
-:doc:`open`:  系统开源历程和开源事项
+:doc:`open`  系统开源历程和开源事项
 
-:doc:`license`: 系统 & 系统文档 的开源协议
+:doc:`license` 系统 & 系统文档 的开源协议
   
 
 Smart20 基础
