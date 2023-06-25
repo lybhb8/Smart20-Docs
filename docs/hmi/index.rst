@@ -9,10 +9,11 @@ Smart20系统编程 | HMI
 
 
 :doc:`/hmi/structure`
-系统页面的层次结构关系
+页面的层次结构和功能区域划分说明
 
+* :ref:`hmi/structure:功能区划分`
+  
 * :ref:`hmi/structure:页面菜单`
-* :ref:`hmi/structure:主按钮菜单`
 
 首页的功能介绍
 

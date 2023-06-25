@@ -8,5 +8,3 @@ hide-toc: true
 :start-after: <!-- start brief -->
 :end-before: <!-- end brief -->
 ```
-
-
