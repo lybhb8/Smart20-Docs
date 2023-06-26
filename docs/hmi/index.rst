@@ -12,8 +12,10 @@ Smart20系统编程 | HMI
 页面的层次结构和功能区域划分说明
 
 * :ref:`hmi/structure:功能区划分`
-  
+
 * :ref:`hmi/structure:页面菜单`
+
+* :ref:`hmi/structure:页面变量`
 
 首页的功能介绍
 
