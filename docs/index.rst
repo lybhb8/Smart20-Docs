@@ -32,7 +32,10 @@ Smart20 基础
 * :doc:`/environment/smart20_repo`
 * :doc:`/environment/ide`
 
-:doc:`/hmi/index`
+:doc:`/hmi/index` :系统HMI部分详解
+
+* :doc:`/hmi/structure` 
+* :doc:`/hmi/pagevar` 
 
 Smart20 进级
 --------------------
