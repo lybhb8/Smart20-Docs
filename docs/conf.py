@@ -141,7 +141,7 @@ if RTD_TESTING or "FURO_RTD_TESTING" in os.environ:
     html_context["github_version"] = "furo"
     html_context["slug"] = "furo"
 
-FONT_AWESOME_TESTING = True
+FONT_AWESOME_TESTING = False
 if FONT_AWESOME_TESTING:
     html_css_files += [
         "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css",
